@@ -3,6 +3,7 @@ import CoinList from "../components/CoinList";
 import SearchBar from "../components/SearchBar";
 import Layout from "../components/Layout"
 import {useState} from 'react'
+import Footer from "../components/Footer";
 
 export default function Home({ filteredCoins }) {
   const [search, setSearch] = useState('');
@@ -24,6 +25,7 @@ export default function Home({ filteredCoins }) {
       </Head>
       <SearchBar type="text" placeholder="Search" onChange={handleChange} />
       <CoinList filteredCoins={allCoins} />
+      <Footer />
     </Layout>
   );
 }
