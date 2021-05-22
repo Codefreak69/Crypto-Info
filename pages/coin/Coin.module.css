@@ -1,0 +1,25 @@
+.coin_page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    
+}
+
+.coin_container{
+    border: 2px solid #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 15px 15px ;
+    width: 30%;
+    align-items: center;
+    justify-content: center;
+    /* height: 500px; */
+}
+
+.coin_image{
+    width: 50px;
+}
+.coin_name{
+    border-bottom: 1px solid magenta;
+}
