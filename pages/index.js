@@ -24,8 +24,8 @@ export default function Home({ filteredCoins }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <SearchBar type="text" placeholder="Search" onChange={handleChange} />
+      <p style={{marginTop: '0',textAlign: 'center' ,fontSize: '1.5rem', color : 'magenta' }}>Top 10 Cryptocurrency in the Market</p>
       <CoinList filteredCoins={allCoins} />
-      <Footer />
     </Layout>
   );
 }

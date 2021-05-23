@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
+import Footer from "./Footer";
 
 const Layout = ({ children, title = "Crypto Info" }) => {
   return (
@@ -763,6 +764,8 @@ const Layout = ({ children, title = "Crypto Info" }) => {
         </Link>
       </header>
       <main>{children}</main>
+      <Footer />
+
     </div>
   );
 };
